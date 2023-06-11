@@ -1,1 +1,27 @@
 Průvodní listina k projektu SQL - ceny a mzdy
+
+Výzkumné otázky:
+
+    1.) Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
+    V průběhu let rostou mzdy ve všech odvětvích, v některých však mohou dočasně klesat. 
+    Nejčastěji klesajícím odvětvím se jeví obor peněžnictví a pojištovnictví, které se však přesto drží mezi nejlépe oceněnými odvětvími.
+    Rokem největšího relativního poklesu mezd byl rok 2013.
+    
+    
+    2.) Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+    Z dat vyplývá, že množství chleba a mléka, které lze koupit v prvním a posledním sledovaném období narůstá v každém  odvětví, kupní síla ve sledovaném období roste.
+    Zajímavé by bylo rozšířit data o údaje z posledních turbulentních let.
+    
+    3.) Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
+    Dle dostupných dat v daném období 2006 - 20018 nejpomaleji rostla cena cukru, nejvíce zdražovaly papriky. Opět by bylo zajímavé srovnání s posledními lety.
+    
+    4.) Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
+    Existují roky, v nichž byl nárůst cen potravin vyšší než růst mezd, ve sledovaném období však rozdíl mezi nárůstem platů a růstem mezd nebyl vyšší než 10%.
+    Nejmarkantnější rozdíly jsou patrné v letech 2013 a 2007.
+    
+    5.) Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
+    Z dat vyplývá, že v roce s nejvyšším přírůstkem HDP (2007) narostly také platy a zejména ceny, v roce s nejnižším přírůstkem HDP (2009) došlo k poklesu cen. 
+    Změny v HDP ovlivňují růst a pokles cen i platů, bylo by však příliš zjednodušující říci, že se růst HDP vždy projeví na cenách potravin či mzdách 
+    ve stejném nebo následujícím období.
+
+Data zpracovávají období 2006 - 2018, chybí nám proto hodnoty pro roky 2019 - 2023, které by odpovědi na výše uvedené výzkumné otázky mohly výrazně pozměnit.
