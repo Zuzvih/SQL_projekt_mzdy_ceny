@@ -41,3 +41,45 @@ LEFT JOIN v_zuz_vih_salaries AS vzvs ON vzvp .`year`  = vzvs .payroll_year ;
 
 SELECT *
 FROM t_zuzana_vihanova_project_sql_primary_final AS tzvpspf  
+
+/*dodatečná tabulka - Evropské země
+ */
+
+SELECT
+*
+FROM countries AS c 
+WHERE continent = 'Europe'
+
+SELECT 
+*
+FROM economies AS e 
+
+SELECT 
+e.country ,
+e.population ,
+e.`year` ,
+e.GDP ,
+e.gini 
+FROM economies AS e 
+	LEFT JOIN countries AS c 
+		ON e.country = c.country 
+		WHERE  c.continent = 'Europe'
+		AND e.`year` BETWEEN 2006 AND 2018
+ORDER BY e.country , e.`year` 
+
+CREATE TABLE t_zuzana_vihanova_project_sql_secondary_final AS 
+SELECT 
+	e.country ,
+	e.population ,
+	e.`year` ,
+	e.GDP ,
+	e.gini 
+FROM economies AS e 
+	LEFT JOIN countries AS c 
+		ON e.country = c.country 
+		WHERE  c.continent = 'Europe'
+		AND e.`year` BETWEEN 2006 AND 2018
+ORDER BY e.country , e.`year` 
+
+SELECT *
+FROM t_zuzana_vihanova_project_sql_secondary_final AS tzvpssf 
